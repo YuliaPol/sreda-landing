@@ -53,7 +53,7 @@ body #papa main#main.landing-page .header-landing .header-content {
 }
 
 body #papa main#main.landing-page .header-landing .header-content h3.title {
-  font-size: 44px;
+  font-size: 36px;
   font-weight: bold;
   text-align: left;
   line-height: 1.6;
@@ -63,7 +63,7 @@ body #papa main#main.landing-page .header-landing .header-content h3.title {
 }
 
 body #papa main#main.landing-page .header-landing .header-content .text {
-  font-size: 28px;
+  font-size: 20px;
   line-height: 1.2;
   text-align: left;
   font-weight: bold;
@@ -466,6 +466,7 @@ body #papa main#main.landing-page .speaker .speaker-items-wrapper .speaker-avata
   width: 200px;
   height: 200px;
   min-width: 200px;
+  background-image: url(../img/speaker_avatar.png);
 }
 
 body #papa main#main.landing-page .speaker .speaker-items-wrapper .speaker_name {
