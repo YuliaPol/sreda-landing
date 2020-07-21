@@ -297,6 +297,7 @@ body #papa main#main.landing-page .registered-users .text {
 body #papa main#main.landing-page .you-can-get {
   max-width: 90%;
   margin: auto;
+  padding-top: 60px;
 }
 
 body #papa main#main.landing-page .you-can-get .you-can-get_container .you-can-get_item .you-can-get_item_text {
@@ -714,6 +715,9 @@ body #papa main#main.landing-page .bottom-text .registration-btn-cont {
         -ms-flex-wrap: wrap;
             flex-wrap: wrap;
   }
+  body #papa main#main .our-conditions .conditions-list-wrapper .conditions-list {
+    margin-left: 0px;
+  }
 }
 
 @media (max-width: 408px) {
@@ -739,9 +743,6 @@ body #papa main#main.landing-page .bottom-text .registration-btn-cont {
   body #papa main#main.landing-page .cards .card-container .card-item .card-price .old-price,
   body #papa main#main.landing-page .cards .card-container .card-item .card-price .new-price {
     font-size: 14px;
-  }
-  body #papa main#main .our-conditions .conditions-list-wrapper .conditions-list {
-    margin-left: 0px;
   }
   body #papa main#main.landing-page .light-blue h3.title {
     padding-top: 0px;
