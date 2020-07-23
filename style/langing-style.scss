@@ -612,6 +612,15 @@ body #papa main#main .questions .questions_content .write_mail .send-btn {
     }
 }
 @media (max-width: 768px){
+    body #papa main#main.landing-page .cards .card-container .card-item {
+        .card-title  {
+            display: block;
+            text-align: center;
+        }
+        .card-body p {
+            text-align: center;
+        }
+    }
     body #papa main#main .certificate .certificate-info-wrapper .certificate-info,
     body #papa main#main.landing-page .speaker .speaker-items-wrapper .speaker_name,
     body #papa main#main .speaker .speaker-items-wrapper .speaker-details,
