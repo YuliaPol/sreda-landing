@@ -7,7 +7,7 @@
     background-image: -ms-linear-gradient( -60deg, rgb(63,198,217) 0%, rgb(91,217,234) 71%, rgb(118,236,250) 100%);
   }
 *::-webkit-scrollbar {
-    width: 0px;
+    width: 0px  !important;
 }
 * {
     scrollbar-width: none;
