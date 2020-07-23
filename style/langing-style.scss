@@ -6,6 +6,14 @@
     background-image: -webkit-linear-gradient( -60deg, rgb(63,198,217) 0%, rgb(91,217,234) 71%, rgb(118,236,250) 100%);
     background-image: -ms-linear-gradient( -60deg, rgb(63,198,217) 0%, rgb(91,217,234) 71%, rgb(118,236,250) 100%);
   }
+*::-webkit-scrollbar {
+    width: 0px;
+}
+* {
+    scrollbar-width: none;
+    scrollbar-width: thin;
+    scrollbar-width: auto;
+}
 body {
   #papa {
       &.no-header {
@@ -206,6 +214,7 @@ body {
                     width: 90%;
                     margin: auto;
                     margin-bottom: 40px;
+                    line-height: 1.2;
                 }
                 .text {
                     max-width: 680px;
