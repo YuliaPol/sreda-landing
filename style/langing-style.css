@@ -168,7 +168,8 @@ body #papa main#main.landing-page .video-registration .video-registration-wrappe
   padding-top: 56.25%;
 }
 
-body #papa main#main.landing-page .video-registration .video-registration-wrapper .video-block iframe {
+body #papa main#main.landing-page .video-registration .video-registration-wrapper .video-block iframe,
+body #papa main#main.landing-page .video-registration .video-registration-wrapper .video-block video {
   position: absolute;
   top: 0;
   left: 0;
