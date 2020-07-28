@@ -133,6 +133,21 @@ body #papa main#main.landing-page .discount .discount-item-wrapper .discount-ite
   font-size: 15px;
 }
 
+body #papa main#main.landing-page .discount .discount-item-wrapper .discount-item .discount-icons {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 body #papa main#main.landing-page .discount .discount-item-wrapper .discount-item .bold-text {
   font-weight: bold;
 }
@@ -559,6 +574,10 @@ body #papa main#main.landing-page .registration-btn-cont {
   padding-bottom: 60px;
 }
 
+body #papa main#main.landing-page .speaker {
+  margin-top: 50px;
+}
+
 body #papa main#main.landing-page .speaker .speaker-items-wrapper {
   max-width: 1280px;
   margin: auto;
@@ -675,6 +694,12 @@ body #papa main#main .questions .questions_content .write_mail .send-btn:hover {
 }
 
 @media (max-width: 1200px) {
+  body #papa main#main .you-can-get .you-can-get_container,
+  body #papa main#main .discount .discount-item-wrapper {
+    -webkit-justify-content: space-around;
+        -ms-flex-pack: distribute;
+            justify-content: space-around;
+  }
   body #papa main#main.landing-page .you-can-get .you-can-get-block .you-can-get-list_item {
     width: calc( 50% - 15px);
   }
@@ -746,12 +771,19 @@ body #papa main#main .questions .questions_content .write_mail .send-btn:hover {
   }
   body #papa main#main.landing-page .discount.support-team .discount-item-wrapper .discount-item {
     margin: 20px;
-    width: calc(33.3% - 60px);
-    min-width: 300px;
+    width: calc(33.3% - 30px);
+    min-width: 250px;
+  }
+  body #papa main#main.landing-page .cards .card-container .card-item {
+    margin: 15px auto;
   }
 }
 
 @media (max-width: 990px) {
+  body #papa main#main .discount .discount-item-wrapper .discount-item {
+    margin: 10px;
+    width: calc(33.3% - 20px);
+  }
   body #papa main#main.landing-page .video-registration .video-registration-wrapper .video-block {
     width: 50%;
   }
@@ -767,6 +799,14 @@ body #papa main#main .questions .questions_content .write_mail .send-btn:hover {
 }
 
 @media (max-width: 768px) {
+  body #papa main#main .discount .discount-item-wrapper .discount-item,
+  body #papa main#main.landing-page .discount.support-team .discount-item-wrapper .discount-item {
+    min-width: 300px;
+    max-width: 300px;
+  }
+  body #papa main#main.landing-page .speaker {
+    margin-top: 20px;
+  }
   body #papa main#main.landing-page .you-can-get .you-can-get-block .you-can-get-list_item {
     width: 100%;
     max-width: 100%;
@@ -854,6 +894,11 @@ body #papa main#main .questions .questions_content .write_mail .send-btn:hover {
 }
 
 @media (max-width: 500px) {
+  body #papa main#main .discount .discount-item-wrapper .discount-item,
+  body #papa main#main.landing-page .discount.support-team .discount-item-wrapper .discount-item {
+    min-width: 250px;
+    max-width: 300px;
+  }
   body #papa main#main.landing-page .header-landing .img-col {
     width: 100%;
     height: 250px;
