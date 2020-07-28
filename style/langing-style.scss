@@ -512,6 +512,65 @@ body {
                         padding: 35px 50px;
                         border-radius: 25px;
                         min-width: 300px;
+                        &.bronze-card {
+                            position: relative;
+                            z-index: 1;
+                            color: #fff;
+                            background-image: url(./../img/landing-card/bronze-card.png);
+                            background-size: auto 180%;
+                            background-position: 50% 0%;
+                            background-repeat: no-repeat;
+                            &::before {
+                                content: "";
+                                position: absolute;
+                                top: 0; 
+                                left: 0;
+                                width: 100%; 
+                                height: 100%;  
+                                z-index: -1;
+                                border-radius: 25px;
+                                background-color: rgba(0, 0, 0, 0.5);
+                            }
+                        }
+                        &.silver-card {
+                            position: relative;
+                            z-index: 1;
+                            background-image: url(./../img/landing-card/silver-card.png);
+                            background-size: auto 180%;
+                            background-position: 50% 0%;
+                            background-repeat: no-repeat;
+                            &::before {
+                                content: "";
+                                position: absolute;
+                                top: 0; 
+                                left: 0;
+                                width: 100%; 
+                                height: 100%;  
+                                z-index: -1;
+                                background-color: rgba(256, 256, 256, 0.5);
+                                border-radius: 25px;
+                            }
+                        }
+                        &.golden-card {
+                            position: relative;
+                            z-index: 1;
+                            color: #fff;
+                            background-image: url(./../img/landing-card/golden-card.png);
+                            background-size: auto 180%;
+                            background-position: 50% 0%;
+                            background-repeat: no-repeat;
+                            &::before {
+                                content: "";
+                                position: absolute;
+                                top: 0; 
+                                left: 0;
+                                width: 100%; 
+                                height: 100%;  
+                                z-index: -1;
+                                border-radius: 25px;
+                                background-color: rgba(0, 0, 0, 0.5);
+                            }
+                        }
                         .card-title-name {
                             font-weight: bold;
                             text-align: center;
@@ -576,15 +635,15 @@ body {
     }
   }
 }
-body #papa main#main .questions .questions_content .write_mail .send-btn {
+body #papa main#main.landing-page .questions .questions_content .write_mail .send-btn {
     font-weight: 500;
     &:hover {
         font-weight: 700;
     }
 }
 @media (max-width: 1200px){
-    body #papa main#main .you-can-get .you-can-get_container,
-    body #papa main#main .discount .discount-item-wrapper {
+    body #papa main#main.landing-page .you-can-get .you-can-get_container,
+    body #papa main#main.landing-page .discount .discount-item-wrapper {
         justify-content: space-around;
     }
     body #papa main#main.landing-page .you-can-get .you-can-get-block .you-can-get-list_item {
@@ -620,7 +679,7 @@ body #papa main#main .questions .questions_content .write_mail .send-btn {
     body #papa main#main.landing-page .registered-users .text {
         font-size: 20px;
     }
-    body #papa main#main .you-can-get {
+    body #papa main#main.landing-page .you-can-get {
         margin-top: 60px;
     }
     body #papa main#main.landing-page .discount .discount-item-wrapper .discount-item .italic  {
@@ -638,7 +697,7 @@ body #papa main#main .questions .questions_content .write_mail .send-btn {
         padding-top: 60px;
         padding-bottom: 40px;
     }
-    body #papa main#main .speaker {
+    body #papa main#main.landing-page .speaker {
         margin-top: 60px;
     }
     body #papa main#main.landing-page .certificate {
@@ -664,15 +723,15 @@ body #papa main#main .questions .questions_content .write_mail .send-btn {
     body #papa main#main.landing-page .cards .card-container .card-item {
         margin: 15px auto;
     }
-    body #papa main#main .you-can-get .you-can-get_container .you-can-get_item {
+    body #papa main#main.landing-page .you-can-get .you-can-get_container .you-can-get_item {
         width: calc( 30% - 20px);
         margin: 10px;
         min-width: 250px;
     }
-    body #papa main#main .you-can-get .you-can-get_container {
+    body #papa main#main.landing-page .you-can-get .you-can-get_container {
         width: 100%;
     }
-    body #papa main#main .discount .discount-item-wrapper .discount-item {
+    body #papa main#main.landing-page .discount .discount-item-wrapper .discount-item {
         margin: 10px;
         width: calc(33.3% - 60px);
     }
@@ -681,7 +740,7 @@ body #papa main#main .questions .questions_content .write_mail .send-btn {
     body #papa main#main.landing-page .speaker .speaker-items-wrapper {
         padding-left: 0px;
     }
-    body #papa main#main .discount .discount-item-wrapper .discount-item {
+    body #papa main#main.landing-page .discount .discount-item-wrapper .discount-item {
         margin: 10px;
         width: calc(33.3% - 20px);
     }
@@ -700,14 +759,14 @@ body #papa main#main .questions .questions_content .write_mail .send-btn {
     body #papa main#main.landing-page .discount .discount-item-wrapper {
         align-items: center;
     }
-    body #papa main#main .discount .discount-item-wrapper .discount-item,
+    body #papa main#main.landing-page .discount .discount-item-wrapper .discount-item,
     body #papa main#main.landing-page .discount.support-team .discount-item-wrapper .discount-item {
         width: 100%;
         max-width: 300px;
     }
 }
 @media (max-width: 768px){
-    body #papa main#main .discount .discount-item-wrapper .discount-item,
+    body #papa main#main.landing-page .discount .discount-item-wrapper .discount-item,
     body #papa main#main.landing-page .discount.support-team .discount-item-wrapper .discount-item {
         min-width: 300px;
         max-width: 300px;
@@ -728,9 +787,9 @@ body #papa main#main .questions .questions_content .write_mail .send-btn {
             text-align: center;
         }
     }
-    body #papa main#main .certificate .certificate-info-wrapper .certificate-info,
+    body #papa main#main.landing-page .certificate .certificate-info-wrapper .certificate-info,
     body #papa main#main.landing-page .speaker .speaker-items-wrapper .speaker_name,
-    body #papa main#main .speaker .speaker-items-wrapper .speaker-details,
+    body #papa main#main.landing-page .speaker .speaker-items-wrapper .speaker-details,
     .you-can-get_bottom-text p,
     body #papa main#main.landing-page .video-registration .video-registration-wrapper .registration-block p {
         text-align: center;
@@ -786,8 +845,8 @@ body #papa main#main .questions .questions_content .write_mail .send-btn {
     body #papa main#main.landing-page .cards .card-container .card-item {
         font-size: 14px;
     }
-    body #papa main#main .speaker .speaker-items-wrapper .speaker-details,
-    body #papa main#main .certificate .certificate-info-wrapper .certificate-info,
+    body #papa main#main.landing-page .speaker .speaker-items-wrapper .speaker-details,
+    body #papa main#main.landing-page .certificate .certificate-info-wrapper .certificate-info,
     body #papa main#main.landing-page .section-because .conditions-list-wrapper .conditions-list .conditions-list_titel {
         font-size: 14px;
     }
@@ -800,7 +859,7 @@ body #papa main#main .questions .questions_content .write_mail .send-btn {
     }
 }
 @media (max-width: 500px){
-    body #papa main#main .discount .discount-item-wrapper .discount-item,
+    body #papa main#main.landing-page .discount .discount-item-wrapper .discount-item,
     body #papa main#main.landing-page .discount.support-team .discount-item-wrapper .discount-item {
         min-width: 250px;
         max-width: 300px;
@@ -816,7 +875,7 @@ body #papa main#main .questions .questions_content .write_mail .send-btn {
     body #papa main#main.landing-page .header-landing {
         flex-wrap: wrap;
     }
-    body #papa main#main .our-conditions .conditions-list-wrapper .conditions-list {
+    body #papa main#main.landing-page .our-conditions .conditions-list-wrapper .conditions-list {
         margin-left: 0px;
     }
 }
@@ -889,7 +948,7 @@ body #papa main#main .questions .questions_content .write_mail .send-btn {
     body #papa main#main.landing-page .you-can-get .you-can-get_bottom-text .you-can-get-list .you-can-get-list_item:before {
         left: -15px;
     }
-    body #papa main#main .certificate .certificate-info-wrapper {
+    body #papa main#main.landing-page .certificate .certificate-info-wrapper {
         width: 100%;
     }
     body #papa main#main.landing-page .discount.support-team .discount-item-wrapper .discount-item,
