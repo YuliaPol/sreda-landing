@@ -155,6 +155,12 @@ body {
                         width: 30%;
                         p {
                             margin-bottom: 35px;
+                            text-align: center;
+                            font-weight: bold;
+                        }
+                        .border-blue {
+                            border: 1px solid #008bb2;
+                            padding: 10px;
                         }
                         .go-to-course {
                             margin-top: 80px;
@@ -292,6 +298,115 @@ body {
                             max-width: 360px;
                             margin: auto;
                             font-size: 15px;
+                        }
+                    }
+                }
+                
+                // new-style
+                .you-can-get-block-1 {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    flex-wrap: wrap;
+                    padding-bottom: 35px;
+                    padding-top: 35px;
+                    .you-can-get-list_item {
+                        width: calc( 50% - 40px);
+                        display: block;
+                        padding: 20px;
+                        border-radius: 20px;
+                        box-sizing: border-box;
+                        margin: 10px 0;
+                        &.blue {
+                            background-image: linear-gradient(-80deg, #3fc6d9 0%, #76ecfa 100%);
+                        }
+                    }
+                }
+                .you-can-get-block-2 {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    flex-wrap: wrap;
+                    padding-bottom: 35px;
+                    padding-top: 35px;
+                    .you-can-get-list_item {
+                        width: calc( 50% - 40px);
+                        display: block;
+                        padding: 20px;
+                        border-radius: 20px;
+                        box-sizing: border-box;
+                        margin: 10px 0;
+                        background-color: #b5eaf2;
+                    }
+                }
+                .you-can-get-block-3 {
+                    display: flex;
+                    align-items: stretch;
+                    justify-content: space-between;
+                    flex-wrap: wrap;
+                    padding-bottom: 35px;
+                    padding-top: 35px;
+                    .you-can-get-list_item {
+                        width: calc( 50% - 40px);
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        flex-direction: column;
+                        display: block;
+                        padding: 20px;
+                        border-radius: 20px;
+                        box-sizing: border-box;
+                        margin: 10px 0;
+                        background-color: #008bb2 ;
+                        max-width: 400px;
+                        .picture {
+                            max-width: 80px;
+                            margin: auto;
+                            img {
+                                max-width: 100%;
+                            }
+                        }
+                        .text {
+                            padding-top: 20px;
+                            max-width: 350px;
+                            color: #ffffff;
+                            text-align: center;
+                            margin: auto;
+                        }
+                    }
+                }
+                .you-can-get-block-4 {
+                    display: flex;
+                    align-items: stretch;
+                    justify-content: space-between;
+                    flex-wrap: wrap;
+                    padding-bottom: 35px;
+                    padding-top: 35px;
+                    .you-can-get-list_item {
+                        width: calc( 50% - 40px);
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        flex-direction: column;
+                        display: block;
+                        padding: 20px;
+                        border-radius: 20px;
+                        box-sizing: border-box;
+                        margin: 10px 0;
+                        background-color: #daf5f8 ;
+                        max-width: 400px;
+                        .picture {
+                            max-width: 80px;
+                            margin: auto;
+                            img {
+                                max-width: 100%;
+                            }
+                        }
+                        .text {
+                            padding-top: 20px;
+                            max-width: 350px;
+                            text-align: center;
+                            margin: auto;
                         }
                     }
                 }
@@ -533,6 +648,12 @@ body #papa main#main .questions .questions_content .write_mail .send-btn {
     }
 }
 @media (max-width: 1200px){
+    body #papa main#main.landing-page .you-can-get .you-can-get-block-1 .you-can-get-list_item,
+    body #papa main#main.landing-page .you-can-get .you-can-get-block-2 .you-can-get-list_item,
+    body #papa main#main.landing-page .you-can-get .you-can-get-block-3 .you-can-get-list_item,
+    body #papa main#main.landing-page .you-can-get .you-can-get-block-4 .you-can-get-list_item {
+        width: calc( 50% - 15px);
+    }
     body #papa main#main.landing-page .header-landing .header-content h3.title {
         font-size: 32px;
     }
@@ -620,6 +741,19 @@ body #papa main#main .questions .questions_content .write_mail .send-btn {
     }
 }
 @media (max-width: 768px){
+    body #papa main#main.landing-page .you-can-get .you-can-get-block-1 .you-can-get-list_item,
+    body #papa main#main.landing-page .you-can-get .you-can-get-block-2 .you-can-get-list_item,
+    body #papa main#main.landing-page .you-can-get .you-can-get-block-3 .you-can-get-list_item,
+    body #papa main#main.landing-page .you-can-get .you-can-get-block-4 .you-can-get-list_item {
+        width: 100%;
+        max-width: 100%;
+    }
+    body #papa main#main.landing-page .you-can-get .you-can-get-block-1 .you-can-get-list_item.blue {
+        background: #ffffff;
+    }
+    body #papa main#main.landing-page .you-can-get .you-can-get-block-1 .you-can-get-list_item:nth-child(odd) {
+        background-image: linear-gradient(-80deg, #3fc6d9 0%, #76ecfa 100%);
+    }
     body #papa main#main.landing-page .cards .card-container .card-item {
         .card-title  {
             display: block;
