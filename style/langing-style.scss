@@ -110,6 +110,7 @@ body {
                     margin: auto;
                 }
                 .discount-item-wrapper {
+                    align-items: baseline;
                     .discount-item {
                         font-size: 15px;
                         .discount-icons {
@@ -656,15 +657,30 @@ body #papa main#main .questions .questions_content .write_mail .send-btn {
         font-size: 18px;
     }
     body #papa main#main.landing-page .discount.support-team .discount-item-wrapper .discount-item {
-        margin: 20px;
+        margin: 10px;
         width: calc(33.3% - 30px);
         min-width: 250px;
     }
     body #papa main#main.landing-page .cards .card-container .card-item {
         margin: 15px auto;
     }
+    body #papa main#main .you-can-get .you-can-get_container .you-can-get_item {
+        width: calc( 30% - 20px);
+        margin: 10px;
+        min-width: 250px;
+    }
+    body #papa main#main .you-can-get .you-can-get_container {
+        width: 100%;
+    }
+    body #papa main#main .discount .discount-item-wrapper .discount-item {
+        margin: 10px;
+        width: calc(33.3% - 60px);
+    }
 }
 @media (max-width: 990px){
+    body #papa main#main.landing-page .speaker .speaker-items-wrapper {
+        padding-left: 0px;
+    }
     body #papa main#main .discount .discount-item-wrapper .discount-item {
         margin: 10px;
         width: calc(33.3% - 20px);
@@ -680,6 +696,14 @@ body #papa main#main .questions .questions_content .write_mail .send-btn {
     }
     body #papa main#main.landing-page .header-landing .header-content h3.title {
         margin-bottom: 40px;
+    }
+    body #papa main#main.landing-page .discount .discount-item-wrapper {
+        align-items: center;
+    }
+    body #papa main#main .discount .discount-item-wrapper .discount-item,
+    body #papa main#main.landing-page .discount.support-team .discount-item-wrapper .discount-item {
+        width: 100%;
+        max-width: 300px;
     }
 }
 @media (max-width: 768px){
