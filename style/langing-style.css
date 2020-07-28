@@ -638,6 +638,7 @@ body #papa main#main.landing-page .cards .card-container .card-item.bronze-card 
           background-size: auto 180%;
   background-position: 50% 0%;
   background-repeat: no-repeat;
+  font-weight: bold;
 }
 
 body #papa main#main.landing-page .cards .card-container .card-item.bronze-card::before {
@@ -660,6 +661,7 @@ body #papa main#main.landing-page .cards .card-container .card-item.silver-card 
           background-size: auto 180%;
   background-position: 50% 0%;
   background-repeat: no-repeat;
+  font-weight: bold;
 }
 
 body #papa main#main.landing-page .cards .card-container .card-item.silver-card::before {
@@ -683,6 +685,7 @@ body #papa main#main.landing-page .cards .card-container .card-item.golden-card 
           background-size: auto 180%;
   background-position: 50% 0%;
   background-repeat: no-repeat;
+  font-weight: bold;
 }
 
 body #papa main#main.landing-page .cards .card-container .card-item.golden-card::before {
