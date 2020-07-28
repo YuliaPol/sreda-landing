@@ -340,74 +340,7 @@ body #papa main#main.landing-page .you-can-get .you-can-get_container .you-can-g
   font-size: 15px;
 }
 
-body #papa main#main.landing-page .you-can-get .you-can-get-block-1 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-flex-wrap: wrap;
-      -ms-flex-wrap: wrap;
-          flex-wrap: wrap;
-  padding-bottom: 35px;
-  padding-top: 35px;
-}
-
-body #papa main#main.landing-page .you-can-get .you-can-get-block-1 .you-can-get-list_item {
-  width: calc( 50% - 40px);
-  display: block;
-  padding: 20px;
-  border-radius: 20px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  margin: 10px 0;
-}
-
-body #papa main#main.landing-page .you-can-get .you-can-get-block-1 .you-can-get-list_item.blue {
-  background-image: -webkit-linear-gradient(170deg, #3fc6d9 0%, #76ecfa 100%);
-  background-image: -o-linear-gradient(170deg, #3fc6d9 0%, #76ecfa 100%);
-  background-image: linear-gradient(-80deg, #3fc6d9 0%, #76ecfa 100%);
-}
-
-body #papa main#main.landing-page .you-can-get .you-can-get-block-2 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-flex-wrap: wrap;
-      -ms-flex-wrap: wrap;
-          flex-wrap: wrap;
-  padding-bottom: 35px;
-  padding-top: 35px;
-}
-
-body #papa main#main.landing-page .you-can-get .you-can-get-block-2 .you-can-get-list_item {
-  width: calc( 50% - 40px);
-  display: block;
-  padding: 20px;
-  border-radius: 20px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  margin: 10px 0;
-  background-color: #b5eaf2;
-}
-
-body #papa main#main.landing-page .you-can-get .you-can-get-block-3 {
+body #papa main#main.landing-page .you-can-get .you-can-get-block {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -427,74 +360,8 @@ body #papa main#main.landing-page .you-can-get .you-can-get-block-3 {
   padding-top: 35px;
 }
 
-body #papa main#main.landing-page .you-can-get .you-can-get-block-3 .you-can-get-list_item {
-  width: calc( 50% - 40px);
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  display: block;
-  padding: 20px;
-  border-radius: 20px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  margin: 10px 0;
-  background-color: #008bb2;
-  max-width: 400px;
-}
-
-body #papa main#main.landing-page .you-can-get .you-can-get-block-3 .you-can-get-list_item .picture {
-  max-width: 80px;
-  margin: auto;
-}
-
-body #papa main#main.landing-page .you-can-get .you-can-get-block-3 .you-can-get-list_item .picture img {
-  max-width: 100%;
-}
-
-body #papa main#main.landing-page .you-can-get .you-can-get-block-3 .you-can-get-list_item .text {
-  padding-top: 20px;
-  max-width: 350px;
-  color: #ffffff;
-  text-align: center;
-  margin: auto;
-}
-
-body #papa main#main.landing-page .you-can-get .you-can-get-block-4 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: stretch;
-  -webkit-align-items: stretch;
-      -ms-flex-align: stretch;
-          align-items: stretch;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-flex-wrap: wrap;
-      -ms-flex-wrap: wrap;
-          flex-wrap: wrap;
-  padding-bottom: 35px;
-  padding-top: 35px;
-}
-
-body #papa main#main.landing-page .you-can-get .you-can-get-block-4 .you-can-get-list_item {
-  width: calc( 50% - 40px);
+body #papa main#main.landing-page .you-can-get .you-can-get-block .you-can-get-list_item {
+  width: calc( 33% - 40px);
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -519,27 +386,32 @@ body #papa main#main.landing-page .you-can-get .you-can-get-block-4 .you-can-get
           box-sizing: border-box;
   margin: 10px 0;
   background-color: #daf5f8;
-  max-width: 400px;
+  max-width: 450px;
 }
 
-body #papa main#main.landing-page .you-can-get .you-can-get-block-4 .you-can-get-list_item .picture {
+body #papa main#main.landing-page .you-can-get .you-can-get-block .you-can-get-list_item .picture {
   max-width: 80px;
   margin: auto;
 }
 
-body #papa main#main.landing-page .you-can-get .you-can-get-block-4 .you-can-get-list_item .picture img {
+body #papa main#main.landing-page .you-can-get .you-can-get-block .you-can-get-list_item .picture img {
   max-width: 100%;
 }
 
-body #papa main#main.landing-page .you-can-get .you-can-get-block-4 .you-can-get-list_item .text {
+body #papa main#main.landing-page .you-can-get .you-can-get-block .you-can-get-list_item .text {
   padding-top: 20px;
   max-width: 350px;
   text-align: center;
   margin: auto;
+  font-weight: 500;
 }
 
 body #papa main#main.landing-page .you-can-get .you-can-get_bottom-text {
   padding-top: 80px;
+}
+
+body #papa main#main.landing-page .you-can-get .you-can-get_bottom-text .bold {
+  text-align: center;
 }
 
 body #papa main#main.landing-page .you-can-get .you-can-get_bottom-text h3.title {
@@ -803,10 +675,7 @@ body #papa main#main .questions .questions_content .write_mail .send-btn:hover {
 }
 
 @media (max-width: 1200px) {
-  body #papa main#main.landing-page .you-can-get .you-can-get-block-1 .you-can-get-list_item,
-  body #papa main#main.landing-page .you-can-get .you-can-get-block-2 .you-can-get-list_item,
-  body #papa main#main.landing-page .you-can-get .you-can-get-block-3 .you-can-get-list_item,
-  body #papa main#main.landing-page .you-can-get .you-can-get-block-4 .you-can-get-list_item {
+  body #papa main#main.landing-page .you-can-get .you-can-get-block .you-can-get-list_item {
     width: calc( 50% - 15px);
   }
   body #papa main#main.landing-page .header-landing .header-content h3.title {
@@ -898,20 +767,9 @@ body #papa main#main .questions .questions_content .write_mail .send-btn:hover {
 }
 
 @media (max-width: 768px) {
-  body #papa main#main.landing-page .you-can-get .you-can-get-block-1 .you-can-get-list_item,
-  body #papa main#main.landing-page .you-can-get .you-can-get-block-2 .you-can-get-list_item,
-  body #papa main#main.landing-page .you-can-get .you-can-get-block-3 .you-can-get-list_item,
-  body #papa main#main.landing-page .you-can-get .you-can-get-block-4 .you-can-get-list_item {
+  body #papa main#main.landing-page .you-can-get .you-can-get-block .you-can-get-list_item {
     width: 100%;
     max-width: 100%;
-  }
-  body #papa main#main.landing-page .you-can-get .you-can-get-block-1 .you-can-get-list_item.blue {
-    background: #ffffff;
-  }
-  body #papa main#main.landing-page .you-can-get .you-can-get-block-1 .you-can-get-list_item:nth-child(odd) {
-    background-image: -webkit-linear-gradient(170deg, #3fc6d9 0%, #76ecfa 100%);
-    background-image: -o-linear-gradient(170deg, #3fc6d9 0%, #76ecfa 100%);
-    background-image: linear-gradient(-80deg, #3fc6d9 0%, #76ecfa 100%);
   }
   body #papa main#main.landing-page .cards .card-container .card-item .card-title {
     display: block;
